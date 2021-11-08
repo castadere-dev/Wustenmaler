@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WustenMaler.Front.Data;
+using WustenMaler.Front.Interfaces;
 using WustenMaler.Front.Services;
 
 namespace WustenMaler.Front
@@ -28,7 +29,7 @@ namespace WustenMaler.Front
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //service process
+            //add service process
             services.AddTransient<IBookService, BookService>();
 
             services.AddControllersWithViews();

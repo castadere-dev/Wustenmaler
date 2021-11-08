@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WustenMaler.Front.Interfaces;
 
 namespace WustenMaler.Front.Services
 {
-    public interface IBookService
+    public class Exposition : IExposition
     {
-        IEnumerable<Book> MostPopular(int numberToTake);
     }
 }
