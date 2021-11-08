@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wustenmaler.Api", "Wustenma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WustenMaler.Front", "WustenMaler.Front\WustenMaler.Front.csproj", "{AD93E53E-4431-4C84-A9CC-24FC75FF1AA8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WustenMaler.Ang", "WustenMalerAng\WustenMaler.Ang.csproj", "{DA165578-BDE1-43D1-B817-7A742DC79095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WustenMaler.Ang", "WustenMaler.Ang\WustenMaler.Ang.csproj", "{DA165578-BDE1-43D1-B817-7A742DC79095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
