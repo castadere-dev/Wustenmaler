@@ -1,27 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using WustenMaler.Front.Services;
 
 namespace WustenMaler.Front.Front.ViewComponents
 {
-
     [ViewComponent(Name = "Bilder")]
     public class BilderViewComponent : ViewComponent
     {
 
-        public BilderViewComponent()
-        {
+        private readonly IBookService _bookService;
 
+        public BilderViewComponent(IBookService bookService)
+        {
+            _bookService = bookService;
         }
 
 
-        public async Task<IViewComponentResult> InvokeAsync(string param)
+        public async Task<IViewComponentResult> InvokeAsync(int numberToTake)
         {
-            List<string> categories = new List<string>() {
-                    "Category 1", "Category 2", "Category 3", "Category 4", "Category 5"
-                };
 
-            return View("~/Views/Shared/Components/Bilder/Default.cshtml", categories);
+            var valBook =  _bookService.MostPopular(numberToTake);
+
+            return View(valBook);
+
+            //return View("/Views/Shared/Components/Bilder/Default.cshtml", categories);
 
         }
 

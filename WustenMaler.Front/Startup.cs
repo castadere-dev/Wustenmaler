@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WustenMaler.Front.Data;
+using WustenMaler.Front.Services;
 
 namespace WustenMaler.Front
 {
@@ -22,10 +23,14 @@ namespace WustenMaler.Front
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            //service process
+            services.AddTransient<IBookService, BookService>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
