@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using System;
 
-namespace WustenMaler.Data.Migrations
+namespace WustenMaler.Front.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

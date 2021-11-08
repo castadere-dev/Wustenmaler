@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using WustenMalerAng.Data;
+using WustenMaler.Ang.Data;
 
-namespace WustenMalerAng
+namespace WustenMaler.Ang
 {
     public class Startup
     {

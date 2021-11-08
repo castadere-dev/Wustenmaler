@@ -1,6 +1,6 @@
 using System;
 
-namespace WustenMaler.Models
+namespace WustenMaler.Front.Models
 {
     public class ErrorViewModel
     {

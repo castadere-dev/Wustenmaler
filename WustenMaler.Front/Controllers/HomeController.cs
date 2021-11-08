@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using WustenMaler.Models;
+using WustenMaler.Front.Models;
 
-namespace WustenMaler.Controllers
+namespace WustenMaler.Front.Controllers
 {
     public class HomeController : Controller
     {

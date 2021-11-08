@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WustenMalerAng.Controllers
+namespace WustenMaler.Ang.Controllers
 {
     [ApiController]
     [Route("[controller]")]

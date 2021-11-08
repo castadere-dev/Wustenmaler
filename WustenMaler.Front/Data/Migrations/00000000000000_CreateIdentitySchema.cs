@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace WustenMaler.Data.Migrations
+namespace WustenMaler.Front.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

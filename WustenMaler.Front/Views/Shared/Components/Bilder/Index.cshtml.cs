@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WustenMaler.Views.Shared.Components.Bilder
+namespace WustenMaler.Front.Views.Shared.Components.Bilder
 {
     public class IndexModel : PageModel
     {

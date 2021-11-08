@@ -12,7 +12,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             @{
-                Html.RenderPartial("_popupPartial");
+                await Html.RenderPartialAsync("_popupPartial");
             }
         </div>
     </div>

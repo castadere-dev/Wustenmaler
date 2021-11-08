@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace WustenMaler.Data
+namespace WustenMaler.Front.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

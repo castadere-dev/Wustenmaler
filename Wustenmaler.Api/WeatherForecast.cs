@@ -1,6 +1,6 @@
 using System;
 
-namespace Wustenmaler
+namespace Wustenmaler.Api
 {
     public class WeatherForecast
     {

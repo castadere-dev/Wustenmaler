@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using WustenMalerAng.Models;
-using WustenMalerAng.Repository;
+using WustenMaler.Ang.Models;
+using WustenMaler.Ang.Repository;
 
-namespace WustenMalerAng.Controllers
+namespace WustenMaler.Ang.Controllers
 {
 
     [Route("api/[controller]")]

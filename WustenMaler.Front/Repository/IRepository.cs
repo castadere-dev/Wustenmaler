@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WustenMaler.Repository
+namespace WustenMaler.Front.Repository
 {
     public interface IRepository
     {

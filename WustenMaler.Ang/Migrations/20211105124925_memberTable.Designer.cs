@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WustenMalerAng.Data;
+using WustenMaler.Ang.Data;
 
-namespace WustenMalerAng.Migrations
+namespace WustenMaler.Ang.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20211105124925_memberTable")]
@@ -20,7 +20,7 @@ namespace WustenMalerAng.Migrations
                 .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WustenMalerAng.Models.Member", b =>
+            modelBuilder.Entity("WustenMaler.Ang.Models.Member", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

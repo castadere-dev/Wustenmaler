@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WustenMalerAng.Migrations
+namespace WustenMaler.Ang.Migrations
 {
     public partial class memberTable : Migration
     {

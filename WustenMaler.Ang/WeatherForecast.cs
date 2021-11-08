@@ -1,6 +1,6 @@
 using System;
 
-namespace WustenMalerAng
+namespace WustenMaler.Ang
 {
     public class WeatherForecast
     {

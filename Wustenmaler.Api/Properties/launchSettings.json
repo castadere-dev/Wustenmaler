@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Wustenmaler": {
+    "Wustenmaler.Api": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

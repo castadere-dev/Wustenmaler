@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace WustenMalerAng.Repository
+namespace WustenMaler.Ang.Repository
 {
     public class Repository<TDbContext> : IRepository where TDbContext : DbContext
     {

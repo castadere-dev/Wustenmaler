@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Wustenmaler
+namespace Wustenmaler.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace Wustenmaler
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Wustenmaler", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Wustenmaler.Api", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Wustenmaler
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Wustenmaler v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Wustenmaler.Api v1"));
             }
 
             app.UseHttpsRedirection();

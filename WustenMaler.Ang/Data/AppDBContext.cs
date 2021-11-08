@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WustenMalerAng.Models;
+using WustenMaler.Ang.Models;
 
-namespace WustenMalerAng.Data
+namespace WustenMaler.Ang.Data
 {
     public class AppDBContext : IdentityDbContext
     {

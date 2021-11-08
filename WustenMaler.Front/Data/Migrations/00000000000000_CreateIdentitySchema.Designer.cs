@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using WustenMaler.Data;
+using WustenMaler.Front.Data;
 
-namespace WustenMaler.Data.Migrations
+namespace WustenMaler.Front.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]

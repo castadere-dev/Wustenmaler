@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WustenMalerAng.Repository
+namespace WustenMaler.Ang.Repository
 {
     public interface IRepository
     {
