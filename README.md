@@ -1,2 +1,2 @@
 # Wustenmaler
-Wustenmaler Web New version
+Wustenmaler Web New version with Core
